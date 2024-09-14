@@ -1,0 +1,109 @@
+  /* Elimina las flechas en Chrome, Safari, Opera */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  /* Elimina las flechas en Firefox */
+  input[type="number"] {
+      -moz-appearance: textfield;
+  }
+
+  header h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.nav-link {
+    color: #D4AF37; /* Color amarillo dorado para los enlaces */
+}
+
+.nav-link:hover {
+    color: white; /* Cambia a blanco al pasar el cursor */
+}
+
+.custom-navbar {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Ajusta el tamaño según tus necesidades */
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+main .perfume-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input-group {
+    max-width: 120px;
+    margin: 0 auto;
+}
+/* Ajustes para íconos de redes sociales */
+.social-icon {
+    width: 35px;
+    margin: 0 10px;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Ajustes para el texto y layout */
+footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #f8d7b3;
+}
+
+
+/*index*/
+
+
+        section img {
+            width: 100%;
+            height: auto;
+        }
+        h2 {
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 15px;
+        }
+        p {
+            font-size: 1rem;
+        }
+        .row {
+            margin-bottom: 20px;
+        }
+        .mission-img, .vision-img {
+            max-width: 100%;
+            height: auto;
+        }
+        .mission-text, .vision-text {
+            display: flex;
+            align-items: center;
+        }
+        .mission-text img, .vision-text img {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .carousel-inner img {
+            height: 600px; /* Ajusta la altura aquí */
+            object-fit: cover; /* Asegura que la imagen cubra el área sin deformarse */
+        }
